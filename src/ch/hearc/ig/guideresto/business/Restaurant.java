@@ -35,7 +35,7 @@ public class Restaurant {
     private Set<Evaluation> evaluations;
     @Embedded
     private Localisation address;
-    @ManyToOne
+    @ManyToOne(cascade=CascadeType.ALL)
     @JoinColumn(name = "fk_type")
     private RestaurantType type;
 
