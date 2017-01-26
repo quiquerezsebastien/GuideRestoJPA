@@ -6,9 +6,9 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <properties>
             <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@db.ig.he-arc.ch:1521:ens2"/>
-            <property name="javax.persistence.jdbc.user" value="sebastie_quiquere"/>
+            <property name="javax.persistence.jdbc.user" value="johan_steiner"/>
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-            <property name="javax.persistence.jdbc.password" value="sebastie_quiquere"/>
+            <property name="javax.persistence.jdbc.password" value="johan_steiner"/>
         </properties>
         <class>ch.hearc.ig.guideresto.business.BasicEvaluation></class>
         <class>ch.hearc.ig.guideresto.business.City</class>
